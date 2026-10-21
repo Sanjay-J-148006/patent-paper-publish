@@ -1,0 +1,17 @@
+name: ka_net
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - pytorch=1.7.0
+  - torchvision=0.7.0
+  - cudatoolkit=11.0
+  - numpy
+  - scikit-learn
+  - pillow
+  - matplotlib
+  - pip
+  - pip:
+    - opencv-python
+    - timm
