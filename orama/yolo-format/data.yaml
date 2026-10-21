@@ -1,0 +1,6 @@
+
+train: C:/Aaris/Orama/BDD100K/yolo_format/train/images
+val: C:/Aaris/Orama/BDD100K/yolo_format/val/images
+test: C:/Aaris/Orama/BDD100K/yolo_format/test/images
+nc: 10
+names: ['person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle', 'bicycle', 'traffic light', 'traffic sign']

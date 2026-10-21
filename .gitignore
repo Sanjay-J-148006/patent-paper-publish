@@ -1,0 +1,51 @@
+# Python virtual environments
+.venv/
+.env/
+venv/
+env/
+dehaze/
+orama.env/
+*.env
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+*.dylib
+
+# Compiled / Large binaries
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.bin
+
+# Model weights & large datasets (exceeding GitHub 100MB limit)
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.onnx
+*.weights
+*.ckpt
+
+# Large media & archives
+*.zip
+*.tar*
+*.gz
+*.7z
+*.rar
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Temporary & system files
+.DS_Store
+Thumbs.db
+*.log
+.tmp*

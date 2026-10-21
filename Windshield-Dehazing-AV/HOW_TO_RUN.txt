@@ -1,0 +1,66 @@
+📋 QUICK START - Run Models from Correct Paths
+
+=====================================================
+❌ WRONG (Path doesn't exist):
+=====================================================
+cd src\nighttime
+cd src\ka_net
+
+=====================================================
+✅ CORRECT Ways to Run Models:
+=====================================================
+
+METHOD 1: Use the new smart launcher (Recommended)
+────────────────────────────────────────────────────
+python run_any_model.py kanet
+python run_any_model.py nighttime
+python run_any_model.py orama
+python run_any_model.py daclip
+
+
+METHOD 2: Use PowerShell launcher
+────────────────────────────────────────────────────
+.\find_and_run.ps1 kanet
+.\find_and_run.ps1 nighttime
+.\find_and_run.ps1 orama
+.\find_and_run.ps1 daclip
+
+
+METHOD 3: Manual - Go to the CORRECT nested path
+────────────────────────────────────────────────────
+
+For KA-Net:
+cd Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\src\ka_net\testcode
+python KA_net_test.py
+
+For Nighttime Dehaze:
+cd Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\src\nighttime
+python main_test.py
+
+For ORAMA:
+cd Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\src\orama
+python inference.py
+
+For DACLiP:
+cd Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\Windshield-Dehazing-AV\src\daclip
+python predict.py
+
+
+METHOD 4: Use batch file launcher
+────────────────────────────────────────────────────
+run_model_smart.bat kanet
+run_model_smart.bat nighttime
+
+
+=====================================================
+RECOMMENDATION
+=====================================================
+Use METHOD 1 - it's the simplest:
+
+    python run_any_model.py kanet
+    python run_any_model.py nighttime
+
+This script automatically finds the correct path
+and runs the model from anywhere!
+
+=====================================================
